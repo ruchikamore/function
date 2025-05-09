@@ -1,0 +1,59 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    //declaretive --hoisting--with parameter/without parameter
+   // student();
+//a,b it is parameter called var
+    function student(a=6,b=7){
+        let name="Ruchika"
+        a=Name(prompt("enter your value"))
+        b=Name(prompt("enter your age"))
+        console.log("student1",a);
+       //return
+        console.log("student2",b);
+        console.log("student3");
+
+      // return
+       console.log("student4");
+        console.log("add",a+b)
+
+        function records(){
+            console.log("name");
+        }
+        records();
+    }
+
+    student();
+
+
+    //arrow function
+    const id=(name="Ruchika",age)=>console.log("Helloo Ruchika " + name +age);
+  
+    id(Ruchika,22);
+
+
+    // let come=()=>(name="Ruchika")=>{
+    //     console.log("Helloo Ruchika " + name);
+    //     {
+    //     console.log("sdfdgd")
+    //     console.log("sdfdgd")
+    //     console.log("sdfdgd")
+    //     console.log("sdfdgd")
+    // }
+    // }
+    const button=document.querySelector("button");
+    button.addEventListener("click",throwalert);
+    function throwalert(){
+        alert("Submitted Successfully ");
+    }
+    
+    
+ </script>   
+</body>
+</html>
